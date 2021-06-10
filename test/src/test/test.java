@@ -73,7 +73,7 @@ public class test {
 		FileWriter fw = new FileWriter(file, true);
 		PrintWriter pw = new PrintWriter(fw);
 		for(int i = 0; a[i]!=null; i++) {
-			System.out.println("gay");
+			System.out.println("bad");
 			LocalDateTime date = java.time.LocalDateTime.now();
 			a[i] = (a[i] + " " + date);
 			System.out.println(a[i]);
